@@ -264,7 +264,7 @@ p code, li code{
 }
 
 #section4 li::before{
-    content: 
+    content: "";
 }
 
 #section5 p:last-of-type{
@@ -407,7 +407,7 @@ footer{
         - add the small box shadow, using the variable in the root
 */
 #section2 a:first-of-type:hover{
-    background-color: var(--dk-blue)
+    background-color: var(--dk-blue);
     color: var(var(--white));
     border-color: var(--lt-blue);
     box-shadow: var(--box-shadow-sm);
